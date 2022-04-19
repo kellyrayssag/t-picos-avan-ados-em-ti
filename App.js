@@ -7,15 +7,17 @@ import {
   Text,
   useColorScheme,
   View,
-} from 'react-native';
+} from 'react-nativ';
+import Title from './src/components/Title';
+
 
 const App = ()=> {
   return(
     <View>
-      <Text>Emilly</Text>
+      <Title />
     </View>
      
   );
   
 }
-export default App;
+export default App
